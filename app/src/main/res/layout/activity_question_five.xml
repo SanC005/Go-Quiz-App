@@ -21,7 +21,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Which of the following programming languages is worst ?"
+            android:text="Which of the following not a planet?"
             android:textSize="40sp"
             android:textAppearance="@style/ShapeAppearance.Material3.LargeComponent"
 
@@ -38,31 +38,36 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:orientation="vertical">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RGroup">
 
-            <Button
-                android:id="@+id/c"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="C++"
-                />
-            <Button
-                android:id="@+id/python"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="Python"
-                />
-            <Button
-                android:id="@+id/java"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="Java"
-                />
-            <Button
-                android:id="@+id/scala"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="Scala"
-                />
+                <RadioButton
+                    android:id="@+id/mars"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mars"
+                    />
+                <RadioButton
+                    android:id="@+id/neptune"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Neptune"
+                    />
+                <RadioButton
+                    android:id="@+id/pluto"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Pluto"
+                    />
+                <RadioButton
+                    android:id="@+id/mercury"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mercury"
+                    />
+            </RadioGroup>
 
 
 
@@ -77,14 +82,13 @@
 
 
 
-        <com.google.android.material.button.MaterialButton
+        <Button
+            android:id="@+id/next6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:id="@+id/nextsix"
-            android:background="@drawable/circleshape"
-
-            app:icon="@drawable/next"/>
+            android:background="@color/black"
+            android:text="Submit" />
 
 
 

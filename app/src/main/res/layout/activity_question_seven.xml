@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:paddingTop="30dp"
-            android:text="50"
+            android:text="0"
 
             android:textSize="40sp"
             android:textAppearance="@style/ShapeAppearance.Material3.MediumComponent"

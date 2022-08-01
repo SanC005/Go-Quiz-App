@@ -17,8 +17,8 @@ public class QuestionFive extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_five);
 
-        ans = findViewById(R.id.python);
-        nextt = findViewById(R.id.nextsix);
+        ans = findViewById(R.id.pluto);
+        nextt = findViewById(R.id.next6);
 
         ans.setOnClickListener(new View.OnClickListener() {
             @Override

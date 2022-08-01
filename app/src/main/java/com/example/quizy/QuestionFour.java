@@ -26,7 +26,7 @@ public class QuestionFour extends AppCompatActivity {
         });
 
 
-        next = findViewById(R.id.nextfour);
+        next = findViewById(R.id.next5);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

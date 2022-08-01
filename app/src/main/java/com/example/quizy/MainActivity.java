@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity{
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Hellow",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Quiz Started",Toast.LENGTH_LONG).show();
 
                 startActivity(new Intent(view.getContext(), QuestionTwo.class));
             }

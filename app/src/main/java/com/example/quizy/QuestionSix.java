@@ -18,7 +18,7 @@ public class QuestionSix extends AppCompatActivity {
         setContentView(R.layout.activity_question_six);
 
         ans = findViewById(R.id.newyork);
-        nextt = findViewById(R.id.nextseven);
+        nextt = findViewById(R.id.next7);
         ans.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

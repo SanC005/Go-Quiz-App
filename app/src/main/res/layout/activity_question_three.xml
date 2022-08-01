@@ -22,61 +22,50 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Was Haber Fritz a good man ?"
+            android:text="Andromeda is name of a galaxy."
             android:textSize="40sp"
-            android:textAppearance="@style/ShapeAppearance.Material3.LargeComponent"
-
             android:textAlignment="viewStart"
-
+            android:background="@color/white"
             android:textColor="@color/black" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RGroup">
 
- <com.google.android.material.button.MaterialButtonToggleGroup
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:gravity="start"
-     android:id="@+id/materialButtonGroup"
-     android:layout_gravity="start"
-     app:singleSelection="true"
-     android:orientation="vertical">
+                 <RadioButton
+                     android:id="@+id/radioTrue"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="True" />
 
-     <com.google.android.material.button.MaterialButton
-         android:id="@+id/True"
-         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-         android:layout_width="wrap_content"
-         android:textAppearance="?android:attr/textAppearanceMedium"
-         android:layout_height="wrap_content"
-         android:text="True"/>
+                 <RadioButton
+                     android:id="@+id/radioFalse"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="False" />
 
-     <com.google.android.material.button.MaterialButton
-         android:id="@+id/False"
-         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-         android:layout_width="wrap_content"
-         android:textAppearance="?android:attr/textAppearanceMedium"
-         android:layout_height="wrap_content"
-         android:text="False"/>
-
-     ></com.google.android.material.button.MaterialButtonToggleGroup>
+            </RadioGroup>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
 
 
 
-        <com.google.android.material.button.MaterialButton
+        <Button
+            android:id="@+id/next4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/circleshape"
-            android:id="@+id/nextthree"
-
-            app:icon="@drawable/next"/>
-
-
-
-
-
+            android:background="@color/black"
+            android:text="Submit" />
 
 
 
