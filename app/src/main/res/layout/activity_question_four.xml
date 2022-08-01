@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionFour">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which of the following is not same as others ?"
+            android:textSize="40sp"
+            android:textAppearance="@style/ShapeAppearance.Material3.LargeComponent"
+
+            android:textAlignment="viewStart"
+
+            android:textColor="@color/black" />
+        <Space
+            android:layout_width="200dp"
+            android:layout_height="150dp"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ostrich"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Ostrich"
+                />
+            <Button
+                android:id="@+id/kiwi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Kiwi"
+                />
+            <Button
+                android:id="@+id/peng"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Penguin"
+                />
+            <Button
+                android:id="@+id/eagle"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Eagle"
+                />
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/nextfour"
+            android:background="@drawable/circleshape"
+
+            app:icon="@drawable/next"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
