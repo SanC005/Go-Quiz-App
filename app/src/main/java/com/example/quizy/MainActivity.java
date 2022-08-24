@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,14 +24,11 @@ public class MainActivity extends AppCompatActivity{
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Quiz Started",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Quiz Started", Toast.LENGTH_LONG).show();
 
                 startActivity(new Intent(view.getContext(), QuestionTwo.class));
             }
         });
-
-
-
 
 
     }
@@ -42,10 +39,8 @@ public class MainActivity extends AppCompatActivity{
         return super.onCreateView(name, context, attrs);
 
 
-
-
     }
-
+}
     //@Override
 //    public void onClick(View view) {
 //       if (view.equals(R.id.startButton)){
@@ -57,4 +52,3 @@ public class MainActivity extends AppCompatActivity{
 //        }
 //
 //    }
-}

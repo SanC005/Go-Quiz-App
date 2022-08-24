@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuestionFive">
+    tools:context=".QuestionFive"
+    android:background="@color/white">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,24 +49,28 @@
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Mars"
+                    android:textColor="@color/black"
                     />
                 <RadioButton
                     android:id="@+id/neptune"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Neptune"
+                    android:textColor="@color/black"
                     />
                 <RadioButton
                     android:id="@+id/pluto"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Pluto"
+                    android:textColor="@color/black"
                     />
                 <RadioButton
                     android:id="@+id/mercury"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Mercury"
+                    android:textColor="@color/black"
                     />
             </RadioGroup>
 

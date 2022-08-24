@@ -30,9 +30,6 @@ public class QuestionTwo extends AppCompatActivity {
         CheckBox Button4 = findViewById(R.id.checkBox4);
 
 
-
-
-
 //        if (Button4.isChecked()) {
 //            increment();
 //        }
@@ -52,7 +49,7 @@ public class QuestionTwo extends AppCompatActivity {
             }
         });
     }
-
+}
 //    private void increment() {
 //        localScore++;
 //
@@ -68,4 +65,3 @@ public class QuestionTwo extends AppCompatActivity {
 //        }
 //
 //    }
-}

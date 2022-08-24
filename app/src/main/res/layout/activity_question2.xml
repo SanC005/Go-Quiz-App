@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuestionTwo">
+    tools:context=".QuestionTwo"
+    android:background="@color/white">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="5dp"
+        android:layout_margin="20dp"
         android:gravity="center"
 
         android:orientation="vertical"
@@ -26,42 +27,49 @@
             android:background="@color/white"
             android:text="Which of the following are states of India ?"
             android:textColor="@color/black"
-            android:layout_marginBottom="50dp"
             android:textSize="40sp" />
+        <Space
+            android:layout_width="200dp"
+            android:layout_height="150dp"/>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:textColor="@color/black" >
 
 
             <CheckBox
                 android:id="@+id/checkBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bhutan" />
+                android:text="Bhutan"
+                android:textColor="@color/black" />
 
 
             <CheckBox
                 android:id="@+id/checkBox2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nepal" />
+                android:text="Nepal"
+                android:textColor="@color/black" />
 
 
             <CheckBox
                 android:id="@+id/checkBox3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bihar" />
+                android:text="Bihar"
+                android:textColor="@color/black" />
 
 
             <CheckBox
                 android:id="@+id/checkBox4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Telengana" />
+                android:text="Telengana"
+                android:textColor="@color/black" />
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -72,7 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@color/black"
+            android:background="@color/white"
             android:text="Submit" />
 
 

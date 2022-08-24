@@ -12,6 +12,7 @@ public class QuestionSeven extends AppCompatActivity {
 
     private TextView scoreview;
     private Button startagain;
+    private Button finish;
 
 
     @Override
@@ -21,6 +22,7 @@ public class QuestionSeven extends AppCompatActivity {
 
         scoreview = findViewById(R.id.score);
         startagain = findViewById(R.id.startagain);
+        finish = findViewById(R.id.Finish);
         String x = String.valueOf(Score.score);
 
         scoreview.setText(x);
@@ -32,6 +34,12 @@ public class QuestionSeven extends AppCompatActivity {
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 Score.score = 0;
+            }
+        });
+        finish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finishAffinity();
             }
         });
 

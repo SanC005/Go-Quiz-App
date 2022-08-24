@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuestionFour">
+    tools:context=".QuestionFour"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,37 +51,32 @@
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Ostrich"
+                    android:textColor="@color/black"
                     />
                 <RadioButton
                     android:id="@+id/kiwi"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Kiwi"
+                    android:textColor="@color/black"
                     />
                 <RadioButton
                     android:id="@+id/peng"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Penguin"
+                    android:textColor="@color/black"
                     />
                 <RadioButton
                     android:id="@+id/eagle"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Eagle"
+                    android:textColor="@color/black"
                     />
             </RadioGroup>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
-
-
-
-
-
-
 
         <Button
             android:id="@+id/next5"
@@ -89,13 +85,6 @@
             android:layout_marginTop="20dp"
             android:background="@color/black"
             android:text="Submit" />
-
-
-
-
-
-
-
 
     </LinearLayout>
 

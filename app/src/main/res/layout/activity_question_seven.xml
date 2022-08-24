@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuestionSeven">
+    tools:context=".QuestionSeven"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -57,6 +58,13 @@
             android:text="start again">
 
         </Button>
+
+        <Button
+            android:id="@+id/Finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Finish" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
